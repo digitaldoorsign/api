@@ -1,0 +1,30 @@
+{
+  "name": "@digitaldoorsign/api",
+  "version": "1.0.0",
+  "description": "Backend API for door sign activities",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitaldoorsign/api.git"
+  },
+  "keywords": [
+    "digitaldoorsign"
+  ],
+  "author": "Joseph Naberhaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitaldoorsign/api/issues"
+  },
+  "homepage": "https://github.com/digitaldoorsign/api#readme",
+  "dependencies": {
+    "@digitaldoorsign/core": "^1.0.7"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
