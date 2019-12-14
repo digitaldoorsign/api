@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/digitaldoorsign/api#readme",
   "dependencies": {
-    "@digitaldoorsign/core": "^1.2.0"
+    "@digitaldoorsign/core": "^1.2.0",
+    "@typegoose/typegoose": "^6.1.7",
+    "mongoose": "^5.8.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
