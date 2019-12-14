@@ -24,6 +24,7 @@
   "dependencies": {
     "@digitaldoorsign/core": "^1.2.0",
     "@typegoose/typegoose": "^6.1.7",
+    "dotenv": "^8.2.0",
     "mongoose": "^5.8.1"
   },
   "devDependencies": {
