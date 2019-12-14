@@ -1,4 +1,9 @@
-import {test, test2} from "@digitaldoorsign/core";
+import mongoose from 'mongoose';
 
-test();
-test2();
+console.log("Starting API");
+
+// Connect to MongoDB
+const dbURL = "mongodb://" + process.env.DB_HOST + ":" + process.env.DB_PORT + "/digitaldoorsign";
+mongoose.connect(dbURL, {useNewUrlParser: true, useUnifiedTopology: true}, () => {
+	console.log("Connected to Mongoose Database");
+});
