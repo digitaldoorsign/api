@@ -22,9 +22,15 @@
   },
   "homepage": "https://github.com/digitaldoorsign/api#readme",
   "dependencies": {
-    "@digitaldoorsign/core": "^1.0.7"
+    "@digitaldoorsign/core": "^1.2.0"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
     "typescript": "^3.7.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
