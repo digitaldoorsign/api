@@ -25,7 +25,12 @@
     "@digitaldoorsign/core": "^1.2.0"
   },
   "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
     "cz-conventional-changelog": "^3.0.2",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
   },
   "config": {
