@@ -1,4 +1,8 @@
 import mongoose from 'mongoose';
+import dotenv from "dotenv";
+
+console.log("Setting up Environment");
+dotenv.config();
 
 console.log("Starting API");
 
