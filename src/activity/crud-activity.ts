@@ -1,7 +1,9 @@
+import {CrudModel} from "./crud-model";
 import {ReturnModelType} from "@typegoose/typegoose";
+import {AnyParamConstructor} from "@typegoose/typegoose/lib/types";
 
-export abstract class CrudActivity<T extends ReturnModelType<any>> {
-	constructor(private record: T) { }
+export abstract class CrudActivity<T extends CrudModel<any, any>> {
+	protected constructor(private record: ReturnModelType<AnyParamConstructor<T>>) { }
 
 	public list(): void {
 		console.log("list!");
